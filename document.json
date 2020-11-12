@@ -1,0 +1,41 @@
+{
+  "name": "COVID-19 Genome Sequence Dataset",
+  "description": "A centralized sequence repository for all strains of novel corona virus (SARS-CoV-2) submitted to the National Center for Biotechnology Information (NCBI). Included are both the original sequences submitted by the principal investigator as well as SRA-processed sequences that require the SRA Toolkit for analysis.",
+  "logo": "_images/dataset.png",
+  "has_supporting_content": false,
+  "stack_id": "cgs-dataset",
+  "type": "dataset-s3",
+  "categories": [
+    "Covid",
+    "Health"
+  ],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "buckets": [
+    "sra-pub-sars-cov2",
+    "sra-pub-sars-cov2-metadata-us-east-1"
+  ],
+  "meta": {
+    "Install time": [
+      "2 minutes"
+    ],
+    "Type": [
+      "Dataset",
+      "S3"
+    ],
+    "Tag": [ "S3" ],
+    "categories": [
+      "Covid",
+      "Health"
+    ]
+  },
+  "isDocumentSaved": true
+}
