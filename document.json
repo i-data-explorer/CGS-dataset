@@ -1,7 +1,7 @@
 {
   "name": "COVID-19 Genome Sequence Dataset",
   "description": "A centralized sequence repository for all strains of novel corona virus (SARS-CoV-2) submitted to the National Center for Biotechnology Information (NCBI). Included are both the original sequences submitted by the principal investigator as well as SRA-processed sequences that require the SRA Toolkit for analysis.",
-  "logo": "_images/dataset.png",
+  "logo": "_images/dataset-1.png",
   "has_supporting_content": false,
   "de_catalog_id": "cgs-dataset",
   "categories": [
